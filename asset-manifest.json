@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/react-memory-game/static/css/main.073c9b0a.css",
-    "main.js": "/react-memory-game/static/js/main.e1b04fc0.js",
+    "main.css": "/react-memory-game/static/css/main.96322f7c.css",
+    "main.js": "/react-memory-game/static/js/main.0795d735.js",
     "static/js/787.d8f3d465.chunk.js": "/react-memory-game/static/js/787.d8f3d465.chunk.js",
-    "static/media/logo.svg": "/react-memory-game/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/deer.jpg": "/react-memory-game/static/media/deer.64b4496430fac2b80a4b.jpg",
+    "static/media/elephant.jpg": "/react-memory-game/static/media/elephant.b3e5cd28f5e05a91d53c.jpg",
+    "static/media/squirrel.jpg": "/react-memory-game/static/media/squirrel.8975027e4baee12b4579.jpg",
+    "static/media/bird.jpg": "/react-memory-game/static/media/bird.f032fc444bbb125142c5.jpg",
     "index.html": "/react-memory-game/index.html",
-    "main.073c9b0a.css.map": "/react-memory-game/static/css/main.073c9b0a.css.map",
-    "main.e1b04fc0.js.map": "/react-memory-game/static/js/main.e1b04fc0.js.map",
+    "main.96322f7c.css.map": "/react-memory-game/static/css/main.96322f7c.css.map",
+    "main.0795d735.js.map": "/react-memory-game/static/js/main.0795d735.js.map",
     "787.d8f3d465.chunk.js.map": "/react-memory-game/static/js/787.d8f3d465.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e1b04fc0.js"
+    "static/css/main.96322f7c.css",
+    "static/js/main.0795d735.js"
   ]
 }
