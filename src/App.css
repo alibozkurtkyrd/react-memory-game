@@ -1,38 +1,114 @@
+body{
+  background: linear-gradient(325deg,  #6f00fc 0%,#fc7900 50%,#fcc700 100%);
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.level2 {
+  display: grid; 
+   grid-template-columns: repeat(4, 1fr);
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.box{
+    /* width: 20%;
+    height: 38%; */
+    width: 13rem;
+    height: 15rem;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    cursor: pointer;
+    background-image: url('./images/question_mark.jpeg');
+    background-size:cover;
+    background-position: center center;
+
+}
+
+.box:active {
+
+  background-color: #64f4c4;
+}
+
+.box .content {
+  visibility: hidden;
+}
+
+.card-front{
+  width: 100%;
+  height: 100%;
+  transition: transform .8s cubic-bezier(0.4, 0.0, 0.2, 1);
+  transform: rotateY(0deg) ;
+
+}
+
+
+.content{
+  height: 100%;
+  width: 100%;
+}
+.opened{
+
+  transform: rotateY(180deg) ; 
+}
+
+.second{
+  visibility: visible !important;
+}
+
+.congratulations {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1.5rem;
+  /* color: #008000;  */
+  color: #F0F0F0;
+  animation: fallDown 1s ease-in-out; /* Falling animation */ 
+}
+
+
+.btn-cta{
+  /* display: block; */
+  background: none;
+  padding: 1rem 3rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  /* color: #fcc700; */
+  text-transform: uppercase;
+  border: solid 3px rgb(255, 255, 255);
+  /* border: solid 3px #fcc700; */
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+.btn-cta:hover {
+  /* border-color: #008000; */
+  border-color: #808080;;
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes fallDown {
+  0% {
+    transform: translateY(-100px); /* Start position, above the viewport */
+    opacity: 0; /* Hidden at the start */
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    transform: translateY(0); /* End position, at the top of the viewport */
+    opacity: 1; /* Fully visible at the end */
   }
 }
