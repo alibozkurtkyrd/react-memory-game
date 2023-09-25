@@ -34,7 +34,15 @@ Before you begin, ensure you have the following installed:
    npm install
 
    npm start
+   
+## Contributing
 
+Contributions are welcome! If you find any issues or have suggestions for improvements, please create an issue or submit a pull request.
 
+---
+
+If you have any questions or feedback, feel free to reach out.
+
+Website created by Ali BOZKURT
 
 
