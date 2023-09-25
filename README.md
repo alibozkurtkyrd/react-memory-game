@@ -10,7 +10,7 @@ You can check out a live demo of the Cafe Website [here](https://alibozkurtkyrd.
 
 ## Screenrecord
 
-[Watch the Screen Recording]()
+[Watch the Screen Recording](https://drive.google.com/file/d/1sGEeSdHlzj_nlkOf0fwXysrcsmPru2GD/view?usp=sharing)
 
 ## Getting Started
 
