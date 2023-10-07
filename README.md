@@ -5,7 +5,7 @@ Welcome to the React Memory Game project! This is a memory matching game built w
 
 ## Demo
 
-You can check out a live demo of the Cafe Website [here](https://alibozkurtkyrd.github.io/react-memory-game/).
+You can check out a live demo of the game [here](https://alibozkurtkyrd.github.io/react-memory-game/).
 
 
 ## Screenrecord
